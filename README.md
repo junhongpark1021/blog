@@ -1,90 +1,104 @@
-# gray
+# Jekyll-Paper
 
-Welcome to your new Gray Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your scss files in `_sass` and any other assets in `assets` in your respectives folders.
+![Jekyll-Paper](./favicon.ico)
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+English | [简体中文](./README-CN.md)
 
-This is a simple blog template for Jekyll in wich I created for testing my skyll on Jekyll and Web Developer.
+Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
 
-I hope you enjoy it!
+Unfortunately, Jekyll Paper implement the category page by 'jekyll-archive' plugin, and GitHub Pages does not support it. So, this project is for self-host blog, and the Github Pages version is also available in [Jekyll Paper for Github][jekyll-paper-github].
 
+This is a [demo website](https://www.ghosind.com) for Jekyll Paper.
 
-## Installation
+## Features
 
-Add this line to your Jekyll site's `Gemfile`:
+- Responsive
+- Paginate
+- RSS
+- Sitemap
+- Custom 404 page
+- SASS
+- Internationalization
+- Configurable navigation menu
+- Categories Index
+- SEO optimization
+- Mathematics (MathJax)
+- Diagrams (Mermaid)
+- Comments (Disqus)
 
-```ruby
-gem "gray"
+## Getting Start
+
+Jekyll Paper is easy to create your own blog. You can create your blog by five steps only!
+
+1. `$ gem install bundler jekyll`
+2. `$ git clone git@github.com:ghosind/Jekyll-Paper.git`
+3. `$ cd Jekyll-Paper`
+4. `Jekyll-Paper $ bundle install`
+5. `Jekyll-Paper $ bundle exec jekyll serve`
+
+## Add New Posts
+
+You can add new posts at any time after you had your own blog. Create a new post need to add a new file in "_posts" directory, and the file name must follow the convention `YYYY-MM-DD-name-of-post.md`.
+
+## Custom Navigation Menu
+
+You can add or update navigation menu items in `_data/menus.yml` file. In the configuration file, you need set title and URL for every navigation menu item.
+
+### Example
+
+```yml
+- title: "Index"
+  url:   ""
+
+- title: "Github"
+  absoluteUrl: true
+  url: "https://github.com/john_doe"
+
+- title: "About"
+  url:   "about"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+## Supported Languages
 
-```yaml
-theme: gray
-```
+Jekyll Paper has supported the following languages, please set language in `language` section of `_config.yml` file (default `language: en`). I'm anticipating you to help me improve the quality of translations and add more languages. The languages list by alphabets of its language code.
 
-And then execute:
+- English
+- Deutsche (German)
+- Español (Spanish)
+- Français (French)
+- 日本語 (Japanese)
+- Português (Portuguese)
+- 简体中文 (Simplified Chinese)
+- 繁體中文 (Traditional Chinese)
 
-    $ bundle
+## Screenshots
 
-Or install it yourself as:
+The home page:
 
-    $ gem install gray
+![Index](./assets/images/index-screenshot.png)
 
-## Usage
+The post page:
 
-This template make with [Foundation 6](https://foundation.zurb.com/sites/docs/installation.html) using Flex Grid, and few [Building Blocks](https://foundation.zurb.com/building-blocks/). I used a monochromatic gray styles.
+![Post](./assets/images/post-screenshot.png)
 
-**Pages**
+The category page:
 
-Contact Form by https://formspree.io/
+![Category](./assets/images/category-screenshot.png)
 
-Categories Page
+The home page in mobile version:
 
-Index with 20 posts (can be editable)
-
-**Plugins**
-
-[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-
-**CSS Classes**
-
-[Foundation 6](https://foundation.zurb.com/sites/docs/installation.html)
-
-[Font Awesome](https://fontawesome.com)
-
-**Loading Contribution**
-
-[tobiasahlin](https://tobiasahlin.com/spinkit/)
-
-**Building Blocks Contributions**
-
-[STICKY NAV SHRINK HERO By Rafi](https://foundation.zurb.com/building-blocks/blocks/sticky-shrinknav.html)
-
-[ARTICLE CARD HOVER By Laurel Beyers](https://foundation.zurb.com/building-blocks/blocks/article-card-hover.html)
-
-[CSS MASONRY GRID By Rafi](https://foundation.zurb.com/building-blocks/blocks/masonry-css.html)
-
-## Demo
-
-In my personal blog I use same template but in portughese language.
-
-https://brunofolle.com.br
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/brunofolle/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass`  and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `gray.gemspec` accordingly.
+![Mobile](./assets/images/mobile-screenshot.png)
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Jekyll Paper was released under MIT license.
 
+## Contributing
+
+If you would like to make Jekyll Paper better, you can create a new pull request in [Jekyll Paper Github Page][jekyll-paper].
+
+If you have any questions or suggestions, you can create an issue on [Jekyll Paper Issues][jekyll-paper-issues].
+
+[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
+[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
+[jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
