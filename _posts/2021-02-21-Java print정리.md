@@ -8,6 +8,10 @@ tags: [Getting Start]
 ---
 
 Java Print와 Java Println은 기본적은 출력method이다.
+
 사용법:System.out.print(출력대상);혹은 System.out.println(출력대상)
 
-Java print와 Java println의 차이는 줄바꿈이다 print는 개행없이 바로 다음칸에 문자가 입력되고 Println은 마지막에 개행문자가 입력된다
+Java print와 Java println의 차이는 줄바꿈이다 
+print: 개행없이 바로 다음칸에 문자가 입력됨
+
+Println: 마지막에 개행문자가 입력된다
