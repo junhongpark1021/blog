@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
+This blog will post about basic skills of Java.It will help you easy to understand and learn the base of Java.
 
-You can find more information in [Jekyll Paper][jekyll-paper]. If you have any questions or suggestions, you can contact me in [Jekyll Paper Issues][jekyll-paper-issues] or send email to [me](mailto:i@ghosind.com). Wish you enjoying your blog life!
+We have no complicate work of computer programing for beginner. We post basic of basic things for Java. We hope that all of vistors get many supports from this blog.Thank you!  
 
 [jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
 [jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
